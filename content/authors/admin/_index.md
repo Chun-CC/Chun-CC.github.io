@@ -116,31 +116,31 @@ skills:
       - name: Python,Matlab for scientific computing
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        #icon: code-bracket
+      - name: Light propagation simulation, Hologram optimization, Light‑field rendering, HOE recording, etc.
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
+        #icon: chart-bar
+      # - name: SQL
+      #   description: ''
+      #   percent: 40
+      #   icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
       - name: Photography
         description: ''
         percent: 80
-        icon: camera
+        # icon: camera
+      - name: Music
+        description: ''
+        percent: 80
+        # icon: cat
+      - name: Animation, Movie
+        description: ''
+        percent: 80
+        # icon: camera
 
 languages:
   - name: Chinese (Native)
