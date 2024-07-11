@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'chenchun@snu.ac.kr'
+    url: 'https://www.researchgate.net/profile/Chun-Chen-65'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
@@ -41,8 +41,8 @@ profiles:
   #   url: https://github.com/gcushen
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
   # - icon: academicons/orcid
   #   url: https://orcid.org/
 
@@ -184,6 +184,6 @@ languages:
 
 ## About Me
 
-I am 4th year Ph.D. student in the Seoul National University OEQELab.
+I am a Ph.D. student at Seoul National University [Optical Engineering and Quantam Electronics Lab](http://oeqelab.snu.ac.kr/HOME2). I was formerly supervised by [Prof. Byoungho Lee](https://scholar.google.co.kr/citations?hl=en&user=VExwDP4AAAAJ&view_op=list_works&sortby=pubdate)
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
