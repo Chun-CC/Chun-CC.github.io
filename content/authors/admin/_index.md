@@ -3,7 +3,7 @@
 title: Chun Chen
 
 # Name pronunciation (optional)
-name_pronunciation: Chun Chen
+# name_pronunciation: Chun Chen
 
 # Full name (for SEO)
 first_name: Chun
