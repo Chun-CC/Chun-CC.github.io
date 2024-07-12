@@ -113,12 +113,12 @@ education:
 skills:
   - name: Technical Skills
     items:
-      - name: Python,Matlab for scientific computing
-        description: ''
+      - name: Coding Skills
+        description: 'Python,Matlab for scientific computing'
         percent: 80
         #icon: code-bracket
-      - name: Light propagation simulation, Hologram optimization, Light‑field rendering, HOE recording, etc.
-        description: ''
+      - name: Experimental Skills
+        description: 'Light propagation simulation, Hologram optimization, Light‑field rendering, HOE recording, etc.'
         percent: 100
         #icon: chart-bar
       # - name: SQL
