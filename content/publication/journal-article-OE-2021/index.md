@@ -1,7 +1,8 @@
 ---
 title: "Multi-depth hologram generation using stochastic gradient descent algorithm with complex loss function"
 authors:
-- admin, Byounghyo Lee, Nan-Nan Li, Minseok Chae, Di Wang, Qiong-Hua Wang and Byoungho Lee 
+- admin, 
+- Byounghyo Lee, Nan-Nan Li, Minseok Chae, Di Wang, Qiong-Hua Wang and Byoungho Lee 
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
@@ -28,7 +29,7 @@ abstract: The stochastic gradient descent (SGD) method is useful in the phase-on
 
 tags:
 - Holographic display, Optimization
-featured: ture
+featured: true
 
 # links:
 # - name: ""

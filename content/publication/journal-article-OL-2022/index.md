@@ -1,7 +1,8 @@
 ---
 title: "Off-axis camera-in-the-loop optimization with noise reduction strategy for high-quality hologram generation"
 authors:
-- admin, Dongyeon Kim, Dongheon Yoo, Byounghyo Lee and Byoungho Lee 
+- admin, 
+- Dongyeon Kim, Dongheon Yoo, Byounghyo Lee and Byoungho Lee 
 author_notes:
 - "Equal contribution"
 - "Equal contribution"

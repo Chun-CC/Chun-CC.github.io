@@ -2,7 +2,7 @@
 title: "Ultrahigh-fidelity full-color holographic display via color-aware optimization"
 authors:
 - admin
-- Seung-Woo Nam, Dongyeon Kim, Juhyun Lee, Yoonchan Jeong and Byoungho Lee 
+- Seung-Woo Nam, et al.
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
