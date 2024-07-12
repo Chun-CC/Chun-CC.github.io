@@ -1,7 +1,7 @@
 ---
 title: "Multi-depth hologram generation using stochastic gradient descent algorithm with complex loss function"
 authors:
-- admin, 
+- admin 
 - Byounghyo Lee, Nan-Nan Li, Minseok Chae, Di Wang, Qiong-Hua Wang and Byoungho Lee 
 author_notes:
 - "Equal contribution"
