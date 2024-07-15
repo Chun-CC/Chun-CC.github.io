@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
+        I'm enthusiastic about all things related to 3D, such as 3D reconstruction, display and imaging. My current research focuses on holographic displays, and I hope that one day our eyes will be able to freely swim in a holographic-based 3D ocean!
         
-        
-        Please reach out to collaborate 😃
+        If you have any inquiries, feel free to reach out to me 😃
     design:
       columns: '1'
   - block: collection

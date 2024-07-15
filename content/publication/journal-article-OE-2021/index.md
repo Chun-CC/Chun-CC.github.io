@@ -29,7 +29,7 @@ abstract: The stochastic gradient descent (SGD) method is useful in the phase-on
 
 tags:
 - Holographic display, Optimization
-featured: true
+featured: false
 
 # links:
 # - name: ""
