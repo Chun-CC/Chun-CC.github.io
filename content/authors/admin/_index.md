@@ -26,12 +26,13 @@ role: Ph.D. student
 organizations:
   - name: Seoul National University
     url: http://oeqelab.snu.ac.kr/HOME2
+  - name: chenchun@snu.ac.kr
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'https://www.researchgate.net/profile/Chun-Chen-65'
+    url: 'mailto:chenchun@snu.ac.kr'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
