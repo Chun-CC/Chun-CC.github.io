@@ -28,7 +28,7 @@ abstract: In this Letter, we introduce a noise reduction (NR) strategy in the of
 
 tags:
 - Holographic display, Optimization
-featured: false
+featured: true
 
 # links:
 # - name: ""
