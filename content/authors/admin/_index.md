@@ -50,8 +50,8 @@ profiles:
 interests:
   - 3D display
   - Computational imaging
-  - Holographic display
-  - Light-field display
+  - Holography
+  - Light-field rendering
 
 education:
   - area: PhD Electrical and Computer Engineering
