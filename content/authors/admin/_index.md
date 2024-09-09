@@ -116,7 +116,7 @@ skills:
     items:
       - name: Coding Skills
         description: 'Python,Matlab for scientific computing'
-        percent: 80
+        percent: 88
         #icon: code-bracket
       - name: Experimental Skills
         description: 'Light propagation simulation, Hologram optimization, Light‑field rendering, HOE recording, etc.'
