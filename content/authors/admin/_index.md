@@ -185,6 +185,6 @@ languages:
 
 ## About Me
 
-I am a postdoctoral researcher at Seoul National University work with professor [Prof. Yoonchan Jeong](http://oeqelab.snu.ac.kr/PROFJ). I received my Ph.D. degree in Electrical and Computer Engineering from Seoul National University [Optical Engineering and Quantam Electronics Lab](http://oeqelab.snu.ac.kr/HOME2). I was formerly supervised by [Prof. Byoungho Lee](https://scholar.google.co.kr/citations?hl=en&user=VExwDP4AAAAJ&view_op=list_works&sortby=pubdate) and professor[Prof. Yoonchan Jeong](http://oeqelab.snu.ac.kr/PROFJ).
+I am a postdoctoral researcher at Seoul National University work with [Prof. Yoonchan Jeong](http://oeqelab.snu.ac.kr/PROFJ). I received my Ph.D. degree in Electrical and Computer Engineering from Seoul National University [Optical Engineering and Quantam Electronics Lab](http://oeqelab.snu.ac.kr/HOME2). I was formerly supervised by [Prof. Byoungho Lee](https://scholar.google.co.kr/citations?hl=en&user=VExwDP4AAAAJ&view_op=list_works&sortby=pubdate) and [Prof. Yoonchan Jeong](http://oeqelab.snu.ac.kr/PROFJ).
 
 <!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
