@@ -10,15 +10,6 @@ view: card
 image:
   caption: ''
   filename: ''
-
-
-  - admin
-
-tags:
-  - Invited Talk
 ---
-
-
-{{< toc mobile_only=true is_open=true >}}
 
 
