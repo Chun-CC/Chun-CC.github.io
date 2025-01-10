@@ -62,7 +62,5 @@ projects:
   - []
 ---
 
-Laser-driven holographic displays have the ability to produce wide-color gamut, color-accurate 3D images. However, system imperfections significantly limit these capabilities, leading to inaccurate color representation. This talk will introduce a color-aware optimization technique that improves color accuracy in holographic displays, contributing to a more immersive viewing experience for users in virtual and augmented reality applications.
-
 
 
