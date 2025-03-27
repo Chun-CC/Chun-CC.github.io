@@ -1,6 +1,6 @@
 ---
 title: I have been selected for the ICDT 2025 Youth Leader Award.
-summary: I’m truly thankful to the committee for this recognition.
+summary: I’m truly thankful to the committee for this recognition
 date: 2025-03-24
 
 # Featured image
@@ -15,7 +15,7 @@ tags:
   - Conference
   - News
 ---
-.
+
 
 {{< toc mobile_only=true is_open=true >}}
 
