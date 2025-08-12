@@ -1,5 +1,5 @@
 ---
-title: Our paper Light-pipe holography has been accepted on Siggraph 2025!
+title: Our paper Light-pipe holography has been accepted in Siggraph 2025!
 summary: 
 date: 2025-07-20
 
