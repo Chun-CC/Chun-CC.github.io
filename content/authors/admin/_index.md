@@ -48,8 +48,7 @@ profiles:
   #   url: https://orcid.org/
 
 interests:
-  - 3D display
-  - Computational imaging
+  - Computational displays
   - Holography
   - Light-field rendering
   - Human visual perception

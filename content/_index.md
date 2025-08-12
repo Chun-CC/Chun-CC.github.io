@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm enthusiastic about all things related to 3D, such as 3D reconstruction, display and imaging. My current research focuses on holographic displays, light-field display.
+        I'm enthusiastic about all things related to 3D, such as 3D reconstruction, displays and imaging. My current research focuses on perceptually-aware computational displays
         
         If you have any inquiries, feel free to reach out to me 😃
     design:
