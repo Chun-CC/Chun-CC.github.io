@@ -52,6 +52,7 @@ interests:
   - Computational imaging
   - Holography
   - Light-field rendering
+  - Human visual perception
 
 education:
   - area: PhD Electrical and Computer Engineering
@@ -115,7 +116,7 @@ skills:
   - name: Technical Skills
     items:
       - name: Coding Skills
-        description: 'Python,Matlab for scientific computing'
+        description: 'Python, Pytorch, Matlab for scientific computing'
         percent: 88
         #icon: code-bracket
       - name: Experimental Skills
