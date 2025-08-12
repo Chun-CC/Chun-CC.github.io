@@ -1,5 +1,5 @@
 ---
-title: Our paper “Light-pipe Holography” has been accepted in SIGGRAPH 2025 and will be presented at the conference.
+title: Our paper Light-pipe Holography has been accepted in SIGGRAPH 2025 and will be presented at the conference.
 summary: 
 date: 2025-07-20
 
