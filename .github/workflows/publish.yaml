@@ -2,6 +2,7 @@ name: Deploy website to GitHub Pages
 
 env:
   WC_HUGO_VERSION: '0.126.3'
+  HUGO_ENVIRONMENT: production
 
 on:
   push:
@@ -22,10 +23,12 @@ jobs:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
+      # 1) 确保主题获取：同时兼容 Git submodule 和 Hugo Modules
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          submodules: recursive   # 若主题用 submodule，必须打开
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -33,29 +36,58 @@ jobs:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
 
+      # 2)（可选但推荐）安装 Go，确保 Hugo Modules 能正常拉取依赖
+      - name: Setup Go (for Hugo Modules)
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+      # 3) 缓存 Hugo Modules（如果你用 go.mod / module 主题）
       - name: Cache Hugo modules
         uses: actions/cache@v4
         with:
-          path: /tmp/hugo_cache_runner/
-          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
+          path: |
+            /tmp/hugo_cache_runner/
+            ~/.cache/hugo_cache/           # 新版 Hugo 的默认缓存位置（双保险）
+            ~/go/pkg/mod                   # Go module 缓存
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.mod') }}
           restore-keys: |
-            ${{ runner.os }}-hugomod-
+            ${{ runner.os }}-hugo-
+
+      # 4) 若用 Hugo Modules，预拉依赖，避免构建期拉取失败导致空样式
+      - name: Hugo mod tidy & download
+        run: |
+          if test -f go.mod; then
+            hugo mod tidy
+            hugo mod graph || true
+          fi
+
+      # 5) （若主题需要 PostCSS）安装 Node 依赖 —— 不需要就保留也没关系，没 package.json 会自动跳过
+      - name: Install Node dependencies (for PostCSS pipelines)
+        run: |
+          if test -f package-lock.json; then
+            npm ci
+          elif test -f package.json; then
+            npm i
+          else
+            echo "No package.json found, skipping npm install"
+          fi
 
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
+      # 6) 用 Pages 提供的 base_url 构建，避免 CSS 指向错误路径（尤其是项目页 /<repo>/ 的情况）
       - name: Build with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
         run: |
-          echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+          echo "Hugo Cache Dir: $(hugo config | grep cachedir || true)"
+          rm -rf public
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Generate Pagefind search index
         run: npx pagefind --site "public"
 
-      # 关键修改：为 GitHub Pages 打包上传静态站点
+      # 7) 上传给 Pages 的工件
       - name: Upload static site to Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
