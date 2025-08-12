@@ -37,18 +37,6 @@ sections:
     design:
       columns: '1'
 
-  # ← 把 Talks 移到这里
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-
   # ← 把 News 也移到这里
   - block: collection
     id: news
@@ -72,6 +60,18 @@ sections:
       view: date-title-summary
       spacing:
         padding: [0, 0, 0, 0]
+
+  # ← 把 Talks 移到这里
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      view: article-grid
+      columns: 1
 
   # 其余保持在后面
   - block: collection
