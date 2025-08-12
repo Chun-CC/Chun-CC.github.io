@@ -151,19 +151,19 @@ languages:
   - name: Korean, Japanese
     percent: 25
 
-awards:
-  - title: ICDT 2025 Youth Leader Award.
-    date: '2025-03-24'
-    awader: ICDT
-  - title: Seoul National University Global Scholarship
-    date: '2021-03-01'
-    awader: SNU
-  - title: National Scholarship for Postgraduate, China
-    date: '2019-11-30'
-    awader: Ministry of Education of the People's Republic of China
-  - title: Outstanding Postgraduate of Sichuan University, China.
-    date: '2019-11-30'
-    awader: SCU
+# awards:
+#   - title: ICDT 2025 Youth Leader Award.
+#     date: '2025-03-24'
+#     awader: ICDT
+#   - title: Seoul National University Global Scholarship
+#     date: '2021-03-01'
+#     awader: SNU
+#   - title: National Scholarship for Postgraduate, China
+#     date: '2019-11-30'
+#     awader: Ministry of Education of the People's Republic of China
+#   - title: Outstanding Postgraduate of Sichuan University, China.
+#     date: '2019-11-30'
+#     awader: SCU
 
 
 # Awards.
