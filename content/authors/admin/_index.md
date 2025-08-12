@@ -152,6 +152,17 @@ languages:
   - name: Korean, Japanese
     percent: 25
 
+awards:
+  - title: ICDT 2025 Youth Leader Award.
+    date: '2025'
+  - title: Seoul National University Global Scholarship
+    date: '2021-2022'
+  - title: National Scholarship for Postgraduate, China
+    date: '2019'
+  - title: Outstanding Postgraduate of Sichuan University, China.
+    date: '2019'
+
+
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
